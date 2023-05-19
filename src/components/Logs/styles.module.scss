@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px black solid;
+  gap: 20px;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  bottom: 0;
+  transition: all 0.2s linear;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}
