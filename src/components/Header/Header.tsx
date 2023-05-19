@@ -5,7 +5,7 @@ import styles from './styles.module.scss';
 export const Header: React.FC = () => {
   return (
     <header className={styles.root}>
-      <NavLink className={({ isActive }) => (isActive ? styles.active : styles.link)} to="/get">
+      <NavLink className={({ isActive }) => (isActive ? styles.active : styles.link)} to="/">
         GET
       </NavLink>
       <NavLink className={({ isActive }) => (isActive ? styles.active : styles.link)} to="/post">

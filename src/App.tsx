@@ -20,8 +20,7 @@ function App() {
       <LogsContext.Provider value={{ logs, addLogs }}>
         <Layout>
           <Routes>
-            <Route index element={<GetPage />}></Route>
-            <Route path="/get" element={<GetPage />}></Route>
+            <Route path="/" element={<GetPage />}></Route>
             <Route path="/post" element={<PostPage />}></Route>
             <Route path="/delete" element={<DeletePage />}></Route>
             <Route path="*" element={<NotFoundPage />}></Route>
