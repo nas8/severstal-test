@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/severstal-test/static/css/main.078f6f17.css",
-    "main.js": "/severstal-test/static/js/main.9b03ca93.js",
+    "main.js": "/severstal-test/static/js/main.3db5424b.js",
     "index.html": "/severstal-test/index.html",
     "main.078f6f17.css.map": "/severstal-test/static/css/main.078f6f17.css.map",
-    "main.9b03ca93.js.map": "/severstal-test/static/js/main.9b03ca93.js.map"
+    "main.3db5424b.js.map": "/severstal-test/static/js/main.3db5424b.js.map"
   },
   "entrypoints": [
     "static/css/main.078f6f17.css",
-    "static/js/main.9b03ca93.js"
+    "static/js/main.3db5424b.js"
   ]
 }
