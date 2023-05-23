@@ -13,8 +13,8 @@ interface LogsListProps {
 export const LogsList: React.FC<LogsListProps> = ({ logs = [], isLogsOpen }) => {
   return (
     <ul className={`${styles.logs_list} ${!isLogsOpen && styles.hidden}`}>
-      {logs.map((log: Log, index) => {
-        return <LogElem key={log.time + index} log={log} />;
+      {logs.map(({ url, time, error }: Log, index) => {
+        return <LogElem key={time + index} url={url} time={time} error={error} />;
       })}
     </ul>
   );
